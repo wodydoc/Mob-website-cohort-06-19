@@ -1,16 +1,16 @@
 /* - - - - - - Colors - - - - - -  */
 html {
   --color: #ccc;
-  --main-color: #160502;
-  --secondary-color:#333333 ;
-  --tertiary-color:  yellowgreen;
+  --main-color: #424242;
+  --secondary-color: #160502;
+  --tertiary-color: yellowgreen;
 
   }
   html.dark {
-    --color: #433E3F;
-    --main-color: #C0B7B1;
-    --secondary-color: #C69C72;
-    --tertiary-color: #8E6E53;
+    --color: black;
+    --main-color: beige;
+    --secondary-color: #aaaaaa;
+    --tertiary-color: red;
   }
   /* - - - - - - Wrapper - - - - - -  */
 
@@ -97,12 +97,12 @@ h1 {
   /* font-weight: 200; */
   /* margin-top: 34px; */
   /* margin-bottom: 0px; */
-  /* font-style: normal; */
-  color: #fff !important;
+  font-style: normal;
+  color: #f40 !important;
   padding: 1rem 1rem 0.5rem;
   font-size: 6rem !important;
   /* padding: 1px; */
-  border: 0.4rem solid #fff !important;
+  border: 0.4rem solid #08f !important;
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.2s infinite alternate;
