@@ -8,9 +8,9 @@ html {
   }
   html.dark {
     --color: black;
-    --main-color: beige;
-    --secondary-color: #aaaaaa;
-    --tertiary-color: red;
+    --main-color: #EF9A9A;
+    --secondary-color: beige;
+    --tertiary-color: #F44336;
   }
   /* - - - - - - Wrapper - - - - - -  */
 
