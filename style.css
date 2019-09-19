@@ -8,7 +8,7 @@ html {
   }
   html.dark {
     --color: black;
-    --main-color: #FF9800;
+    --main-color: #ec946b;
     --secondary-color: #FFCC80;
     --tertiary-color: #BF360C;
   }
@@ -195,7 +195,7 @@ h1:focus {
 /* LAY OUT --- LAY OUT --- LAYOUT  */
 /* Generics */
 a {
-  color: #2cb1a5;
+  color: var(--secondary-color) !important;
   text-decoration: none;
   -webkit-transition: color 0.5s ease-out;
   -moz-transition: color 0.5s ease-out;
@@ -203,7 +203,7 @@ a {
   -ms-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out; }
   a:visited {
-    color: var(--tertiary-color); }
+    color: var(--tertiary-color) !important; }
   a:hover {
     color: red;
     text-decoration: none !important; }
@@ -306,7 +306,10 @@ header {
   padding: 61px 0 20px 0; }
   header .header-logo {
     font-size: 57pt;
-    line-height: 73pt;
+    /* line-height: 73pt; */
+    /* font-style: italic; */
+    color: var(--tertiary-color);
+    /* font-weight: 900;
     /* font-style: italic; */
     /* font-weight: 900; */ }
   header .header-logo-slogan {
@@ -459,12 +462,13 @@ footer {
 .feature-banner {
   text-align: center;
   width: 100%;
-  padding: 40px 0 25px 0; }
+  padding: 25px 0 25px 0;
+}
   .feature-banner i {
     font-size: 30pt;
     margin: 30px 30px 30px 0; }
   .feature-banner a {
-    color: var(--color);
+    /* color: var(--color); */
     margin: 30px;
     -webkit-transition: color 0.5s ease-out;
     -moz-transition: color 0.5s ease-out;
@@ -481,22 +485,22 @@ footer {
       margin: 10px; } }
 
 .scroll-to-top {
-  width: 40px;
+  width: 46px;
   height: 40px;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 25px;
+  right: 27px;
   display: none;
-  background-color: rgba(105, 105, 105, 0.267);
-  border-bottom: 5px solid #f7f7f7;
-  color: #ffffff;
+  background-color: #9e9e9e70;
+  border-bottom: 5px solid var(--tertiary-color);
+  /* color: var(--main-color); */
   text-align: center;
   font-size: 14pt;
   -webkit-transition: font-size 0.5s ease-out;
-  -moz-transition: font-size  0.5s ease-out;
-  -o-transition: font-size  0.5s ease-out;
-  -ms-transition: font-size  0.5s ease-out;
-  transition: font-size  0.5s ease-out; }
+  -moz-transition: font-size 0.5s ease-out;
+  -o-transition: font-size 0.5s ease-out;
+  -ms-transition: font-size 0.5s ease-out;
+  transition: font-size 0.5s ease-out; }
   .scroll-to-top:hover {
     font-size: 16pt; }
 
