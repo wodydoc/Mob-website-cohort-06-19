@@ -195,7 +195,7 @@ h1:focus {
 /* LAY OUT --- LAY OUT --- LAYOUT  */
 /* Generics */
 a {
-  color: var(--secondary-color) !important;
+  color: var(--tertiary-color) !important;
   text-decoration: none;
   -webkit-transition: color 0.5s ease-out;
   -moz-transition: color 0.5s ease-out;
@@ -203,7 +203,7 @@ a {
   -ms-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out; }
   a:visited {
-    color: var(--tertiary-color) !important; }
+    color: var(--secondary-color) !important; }
   a:hover {
     color: red;
     text-decoration: none !important; }
