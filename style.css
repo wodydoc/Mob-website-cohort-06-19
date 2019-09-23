@@ -1,16 +1,16 @@
 /* - - - - - - Colors - - - - - -  */
 html {
   --color: #ccc;
-  --main-color: #424242;
-  --secondary-color: #160502;
-  --tertiary-color: yellowgreen;
+  --main-color: #160502;
+  --secondary-color: #4a1006;
+  --tertiary-color: #F21A1D;
 
   }
   html.dark {
-    --color: black;
-    --main-color: #ec946b;
-    --secondary-color: #FFCC80;
-    --tertiary-color: #BF360C;
+    --color: #3E2723;
+    --main-color: #daad86;
+    --secondary-color: #b69367;
+    --tertiary-color: #FBeec1;
   }
   /* - - - - - - Wrapper - - - - - -  */
 
@@ -45,10 +45,10 @@ html {
 
 .switch {
   display: inline-block;
-  font-size: 20px; /* 1 */
+  font-size: 20px;
   height: 1em;
   width: 2em;
-  background: var(--secondary-color);
+  background: var(--tertiary-color);
   border-radius: 1em;
 }
 
@@ -56,7 +56,7 @@ html {
   height: 1em;
   width: 1em;
   border-radius: 1em;
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
   box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
   -webkit-transition: all 300ms;
      -moz-transition: all 300ms;
@@ -303,7 +303,8 @@ hr {
 
 /* Theme */
 header {
-  padding: 61px 0 20px 0; }
+  padding: 65px 0 0px 0; 
+}
   header .header-logo {
     font-size: 57pt;
     /* line-height: 73pt; */
@@ -462,7 +463,7 @@ footer {
 .feature-banner {
   text-align: center;
   width: 100%;
-  padding: 25px 0 25px 0;
+  padding: 15px 0 15px 0;
 }
   .feature-banner i {
     font-size: 30pt;
