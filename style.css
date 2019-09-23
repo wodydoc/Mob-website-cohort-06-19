@@ -97,15 +97,16 @@ h1 {
   /* font-weight: 200; */
   /* margin-top: 34px; */
   /* margin-bottom: 0px; */
+  font-family: 'Audiowide', cursive !important;
   font-style: normal;
   color: #f40 !important;
-  padding: 1rem 1rem 0.5rem;
-  font-size: 6rem !important;
+  padding: 1.5rem 1rem 1.5rem;
+  font-size: 5rem !important;
   /* padding: 1px; */
-  border: 0.4rem solid #08f !important;
-  border-radius: 2rem;
+  border: 0.4rem solid #3F51B5 !important;
+  border-radius: 1rem;
   text-transform: uppercase;
-  animation: flicker 1.2s infinite alternate;
+  animation: flicker 2.2s infinite alternate;
   /* font-family: 'Exo 2', sans-serif; */
   display: flex;
   justify-content: center;
