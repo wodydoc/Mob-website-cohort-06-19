@@ -228,7 +228,9 @@ h2, h3, h4, h5, h6 {
 
 h3 {
   font-weight: 600; 
-  color: var(--color) !important;}
+  color: var(--color) !important;
+  padding-top: 63px;
+}
 
 p {
   font-weight: 100;
@@ -495,9 +497,8 @@ footer {
       margin: 10px; } }
 
 .scroll-to-top {
-  width: 46px;
-  width: 62px;
-  height: 43px;
+  width: 123px;
+  height: 46px;
   position: fixed;
   bottom: 2px;
   right: 2px;
