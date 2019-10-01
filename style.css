@@ -96,25 +96,25 @@ html {
 
 
 h1 {
-  font-size: 6rem;
-  /* font-weight: 200; */
-  /* margin-top: 34px; */
-  margin-bottom: 0px;
-  font-family: 'Shrikhand', cursive !important;
-  /* font-family: 'Audiowide', cursive !important; */
-  font-style: normal;
-  color: #f40 !important;
-  padding: 1.5rem 1rem 1.5rem;
-  font-size: 3.5rem !important;
-  padding: 13px;
-  border: 0.4rem solid #3F51B5 !important;
-  border-radius: 9rem;
-  /* text-transform: uppercase; */
-  animation: flicker 2.2s infinite alternate;
-  /* font-family: 'Exo 2', sans-serif; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-size: 6rem;
+    /* font-weight: 200; */
+    /* margin-top: 34px; */
+    margin-bottom: 0px;
+    font-family: 'Shrikhand', cursive !important;
+    /* font-family: 'Audiowide', cursive !important; */
+    font-style: normal;
+    color: #f40 !important;
+    padding: 1.5rem 1rem 1.5rem;
+    font-size: 6.5rem !important;
+    padding: 13px;
+    border: 0.4rem solid #3F51B5 !important;
+    border-radius: 2rem;
+    /* text-transform: uppercase; */
+    animation: flicker 2.2s infinite alternate;
+    /* font-family: 'Exo 2', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1::-moz-selection {
@@ -309,7 +309,7 @@ hr {
 
 /* Layouts */
 .large-wrapper, .small-wrapper {
-  padding: 10px; }
+  padding: 15px; }
 
 .large-wrapper {
   margin: 0 40px 0 40px; }
@@ -479,7 +479,7 @@ footer {
 .feature-banner {
   text-align: center;
   width: 100%;
-  padding: 1px 0 25px 0;
+  padding: 10px 0 6px 0;
 }
   .feature-banner i {
     font-size: 30pt;
@@ -555,10 +555,12 @@ MODALS
 body {
   background: #2E282A;
   font-family: 'Open Sans', sans-serif;
+  margin: 6px !important;
 }
 
 .container {
   margin-top: 20px;
+  /* margin: 1rem; */
 }
 
 h2 {
@@ -596,7 +598,7 @@ h2 {
 }
 
 .bar-inner {
-  width: 0;
+  width: 0px;
   height: 35px;
   line-height: 35px;
   background: #db3a34;
