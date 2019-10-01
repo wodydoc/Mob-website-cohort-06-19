@@ -1,9 +1,9 @@
 /* - - - - - - Colors - - - - - -  */
 html {
-  --color: #000000;
-  --main-color: #BDBDBD;
-  --secondary-color: #F5F5F5;
-  --tertiary-color: #3f51b5;
+    --color: #000000;
+    --main-color: #616161;
+    --secondary-color: #9E9E9E;
+    --tertiary-color: #FFEB3B;
 }
 
 
@@ -23,14 +23,14 @@ html {
 
 
 .togglecontainer {
-  position: absolute;
-  top: -3rem;
-  right: 2rem;
-  /* bottom: 6rem; */
-  /* left: 30rem; */
-  height: 40px;
-  margin: auto;
-  text-align: center;
+    position: absolute;
+    top: 2rem;
+    right: 19px;
+    /* bottom: 6rem; */
+    /* left: 30rem; */
+    height: 40px;
+    margin: auto;
+    text-align: center;
 }
 
 /** Switch
@@ -96,18 +96,19 @@ html {
 
 
 h1 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
     /* font-weight: 200; */
     /* margin-top: 34px; */
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
     font-family: 'Shrikhand', cursive !important;
     /* font-family: 'Audiowide', cursive !important; */
-    font-style: normal;
+    /* font-style: normal; */
     color: #f40 !important;
-    padding: 1.5rem 1rem 1.5rem;
-    font-size: 6.5rem !important;
-    padding: 13px;
-    border: 0.4rem solid #3F51B5 !important;
+    /* padding: 1.5rem 1rem 1.5rem; */
+    font-size: 5rem !important;
+    padding: 6px;
+    line-height: 52px !important;
+    border: 1rem solid #3F51B5 !important;
     border-radius: 2rem;
     /* text-transform: uppercase; */
     animation: flicker 2.2s infinite alternate;
@@ -115,6 +116,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 h1::-moz-selection {
@@ -316,16 +318,16 @@ hr {
 
 /* Theme */
 header {
-  padding: 65px 0 0px 0; 
+  /* padding: 35px 0 0px 0;  */
 }
   header .header-logo {
     font-size: 57pt;
-    /* line-height: 73pt; */
+    /* line-height: 134pt; */
     /* font-style: italic; */
+    /* margin: 0rem; */
     color: var(--color);
-    /* font-weight: 900;
-    /* font-style: italic; */
-    /* font-weight: 900; */ }
+    font-weight: 900;
+    padding-top: 40px;}
   header .header-logo-slogan {
     font-size: 21pt;
     line-height: 21pt;
@@ -598,11 +600,12 @@ h2 {
 }
 
 .bar-inner {
-  width: 0px;
-  height: 35px;
-  line-height: 35px;
-  background: #db3a34;
-  border-radius: 5px 0 0 5px;
+    width: 0px;
+    height: 35px;
+    line-height: 35px;
+    background: #db3a34;
+    /* border-radius: 18px; */
+    border-radius: 5px 17px 0 5px;
 }
 
 .bar-percent {
