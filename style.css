@@ -1,17 +1,18 @@
 /* - - - - - - Colors - - - - - -  */
 html {
-  --color: #ccc;
-  --main-color: #160502;
-  --secondary-color: #424242;
-  --tertiary-color: #FF4500;
+  --color: #000000;
+  --main-color: silver;
+  --secondary-color: #F5F5F5;
+  --tertiary-color: #3f51b5;
 }
 
 
   html.dark {
-    --color: #3E2723;
-    --main-color: #b69367;
-    --secondary-color: #daad86;
-    --tertiary-color: #FBeec1;
+    --color: #9E9E9E;
+    --main-color: #160502;
+    --secondary-color: #0d200d;
+    --tertiary-color: #43A047;
+
   }
   /* - - - - - - Wrapper - - - - - -  */
 
@@ -81,6 +82,7 @@ html {
   }
 
   @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+  @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
 
 :root {
   /* Base font size */
@@ -97,16 +99,17 @@ h1 {
   font-size: 6rem;
   /* font-weight: 200; */
   /* margin-top: 34px; */
-  /* margin-bottom: 0px; */
-  font-family: 'Audiowide', cursive !important;
+  margin-bottom: 0px;
+  font-family: 'Shrikhand', cursive !important;
+  /* font-family: 'Audiowide', cursive !important; */
   font-style: normal;
   color: #f40 !important;
   padding: 1.5rem 1rem 1.5rem;
-  font-size: 5rem !important;
-  /* padding: 1px; */
+  font-size: 3.5rem !important;
+  padding: 13px;
   border: 0.4rem solid #3F51B5 !important;
-  border-radius: 1rem;
-  text-transform: uppercase;
+  border-radius: 9rem;
+  /* text-transform: uppercase; */
   animation: flicker 2.2s infinite alternate;
   /* font-family: 'Exo 2', sans-serif; */
   display: flex;
@@ -180,9 +183,9 @@ h1:focus {
 .spinny-words span:nth-child(5) { 
   animation-delay: 12s; 
 }
-.spinny-words span:nth-child(6) { 
+/* .spinny-words span:nth-child(6) { 
   animation-delay: 15s; 
-}
+} */
 @keyframes rotateWord {
 0%   { opacity: 0; }
 2%   { opacity: 0; transform: translateY(-30px); }
@@ -205,7 +208,8 @@ a {
   -ms-transition: color 0.5s ease-out;
   transition: color 0.5s ease-out; }
   a:visited {
-    color: var(--secondary-color) !important; }
+    /* color: var(--secondary-color) !important;  */
+  }
   a:hover {
     color: red;
     text-decoration: none !important; }
@@ -330,7 +334,8 @@ header {
         font-weight: bold; } }
 
 footer {
-  padding-bottom: 80px; }
+  padding-bottom: 80px; 
+  padding-top: 17px;}
   footer p {
     color: #969696;
     line-height: 20px;
@@ -432,8 +437,8 @@ footer {
   #projects #portfolio .tile img {
     max-width: 100%;
     width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+    height: 20rem;
+    margin-bottom: 0rem;
     filter: grayscale(0%);
     vertical-align: middle;
     -webkit-transition: filter 0.5s ease-out;
@@ -441,7 +446,9 @@ footer {
     -o-transition: filter 0.5s ease-out;
     -ms-transition: filter 0.5s ease-out;
     transition: filter 0.5s ease-out;
-    border: 1px solid #d3d3d3; }
+    border: 3px solid var(--main-color);
+    border-radius: 13px;
+  }
     #projects #portfolio .tile img:hover {
       filter: grayscale(100%); }
 
@@ -489,10 +496,11 @@ footer {
 
 .scroll-to-top {
   width: 46px;
-  height: 40px;
+  width: 62px;
+  height: 43px;
   position: fixed;
-  bottom: 25px;
-  right: 27px;
+  bottom: 2px;
+  right: 2px;
   display: none;
   background-color: #9e9e9e70;
   border-bottom: 5px solid var(--tertiary-color);
@@ -503,7 +511,10 @@ footer {
   -moz-transition: font-size 0.5s ease-out;
   -o-transition: font-size 0.5s ease-out;
   -ms-transition: font-size 0.5s ease-out;
-  transition: font-size 0.5s ease-out; }
+  transition: font-size 0.5s ease-out;
+
+
+}
   .scroll-to-top:hover {
     font-size: 16pt; }
 
@@ -531,3 +542,64 @@ MODALS
     margin-bottom: 30px; }
   .modal-content-wrapper h2 {
     margin-bottom: 30px; }
+
+/*  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  background: #2E282A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #fff;
+}
+.big {
+  font-size: 7.5rem;
+  /* padding: 0%; */
+  /* margin: 0%; */
+  line-height: 5.5rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.bar {
+
+  width: 100%;
+  height: 35px;
+  background: var(--color);
+  border-radius: 18px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 100%;
+  /* margin: 10px auto 25px; */
+  text-align: left;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: var(--main-color);
+  font-size: 18px;
+}
