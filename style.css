@@ -1,17 +1,17 @@
 /* - - - - - - Colors - - - - - -  */
 html {
   --color: #000000;
-  --main-color: silver;
+  --main-color: #BDBDBD;
   --secondary-color: #F5F5F5;
   --tertiary-color: #3f51b5;
 }
 
 
   html.dark {
-    --color: #9E9E9E;
-    --main-color: #160502;
-    --secondary-color: #0d200d;
-    --tertiary-color: #43A047;
+    --color: #b0b0b0;
+    --main-color: #272f33;
+    --secondary-color: #160502;
+    --tertiary-color: #7CB342;
 
   }
   /* - - - - - - Wrapper - - - - - -  */
@@ -229,7 +229,12 @@ h2, h3, h4, h5, h6 {
 h3 {
   font-weight: 600; 
   color: var(--color) !important;
-  padding-top: 63px;
+  
+}
+h4 {
+  font-size: 30px !important;
+  text-decoration: underline;
+  
 }
 
 p {
@@ -304,7 +309,7 @@ hr {
 
 /* Layouts */
 .large-wrapper, .small-wrapper {
-  padding: 15px; }
+  padding: 10px; }
 
 .large-wrapper {
   margin: 0 40px 0 40px; }
@@ -317,7 +322,7 @@ header {
     font-size: 57pt;
     /* line-height: 73pt; */
     /* font-style: italic; */
-    color: var(--tertiary-color);
+    color: var(--color);
     /* font-weight: 900;
     /* font-style: italic; */
     /* font-weight: 900; */ }
@@ -474,7 +479,7 @@ footer {
 .feature-banner {
   text-align: center;
   width: 100%;
-  padding: 30px 0 25px 0;
+  padding: 1px 0 25px 0;
 }
   .feature-banner i {
     font-size: 30pt;
@@ -560,7 +565,7 @@ h2 {
   color: #fff;
 }
 .big {
-  font-size: 7.5rem;
+  font-size: 7rem;
   /* padding: 0%; */
   /* margin: 0%; */
   line-height: 5.5rem;
@@ -587,6 +592,7 @@ h2 {
   width: 100%;
   /* margin: 10px auto 25px; */
   text-align: left;
+  font-size: 24px;
 }
 
 .bar-inner {
@@ -604,3 +610,48 @@ h2 {
   color: var(--main-color);
   font-size: 18px;
 }
+
+.toggle-box {
+  display: none;
+}
+
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  line-height: 21px;
+  text-align: left;
+  /* align-items: left; */
+  margin-bottom: 5px;
+}
+
+.toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+  display: block;
+}
+
+.toggle-box + label:before {
+  background-color: #4F5150;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.toggle-box:checked + label:before {
+  content: "\2212";
+}
+
