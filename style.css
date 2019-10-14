@@ -1,9 +1,9 @@
 /* - - - - - - Colors - - - - - -  */
 html {
-    --color: #000000;
-    --main-color: #616161;
-    --secondary-color: #9E9E9E;
-    --tertiary-color: #FFEB3B;
+  --color: #000000;
+  --main-color: #FAFAFA;
+  --secondary-color: #E0E0E0;
+  --tertiary-color: #ff4400;
 }
 
 
@@ -162,41 +162,8 @@ h1:focus {
     }    
 }
 /* SPINNY WORDS */
-.spinny-words{
-  display: inline-block;
-  text-align: left;
-}
-.spinny-words span{
-  position: absolute;
-  /* font-style: italic; */
-  top: -0px;
-  opacity: 0;
-  animation: rotateWord 18s linear infinite 0s;
-}
-.spinny-words span:nth-child(2) { 
-  animation-delay: 3s; 
-}
-.spinny-words span:nth-child(3) { 
-  animation-delay: 6s; 
-}
-.spinny-words span:nth-child(4) { 
-  animation-delay: 9s; 
-}
-.spinny-words span:nth-child(5) { 
-  animation-delay: 12s; 
-}
-/* .spinny-words span:nth-child(6) { 
-  animation-delay: 15s; 
-} */
-@keyframes rotateWord {
-0%   { opacity: 0; }
-2%   { opacity: 0; transform: translateY(-30px); }
-5%   { opacity: 1; transform: translateY(0px);}
-17%  { opacity: 1; transform: translateY(0px); }
-20%  { opacity: 0; transform: translateY(30px); }
-80%  { opacity: 0; }
-100% { opacity: 0; }
-}
+/*  */
+
 
   
 /* LAY OUT --- LAY OUT --- LAYOUT  */
