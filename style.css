@@ -105,7 +105,7 @@ h1 {
     /* font-style: normal; */
     color: #f40 !important;
     /* padding: 1.5rem 1rem 1.5rem; */
-    font-size: 5rem !important;
+    font-size: 3rem !important;
     padding: 6px;
     line-height: 52px !important;
     border: 1rem solid #3F51B5 !important;
@@ -288,13 +288,13 @@ header {
   /* padding: 35px 0 0px 0;  */
 }
   header .header-logo {
-    font-size: 57pt;
-    /* line-height: 134pt; */
+    font-size: 50pt;
+    line-height: 109pt;
     /* font-style: italic; */
-    /* margin: 0rem; */
+    margin: 0rem;
     color: var(--color);
-    font-weight: 900;
-    padding-top: 40px;}
+    /* font-weight: 600; */
+    padding-top: 23px;}
   header .header-logo-slogan {
     font-size: 21pt;
     line-height: 21pt;
@@ -524,11 +524,11 @@ MODALS
 body {
   background: #2E282A;
   font-family: 'Open Sans', sans-serif;
-  margin: 6px !important;
+  /* margin: 6px !important; */
 }
 
-.container {
-  margin-top: 20px;
+.digitaldesignercodydow {
+  margin-top: 106px;
   /* margin: 1rem; */
 }
 
