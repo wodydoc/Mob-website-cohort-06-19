@@ -48,3 +48,7 @@ $(".bar").each(function(){
       width: $(this).attr("data-width")
     },2000)
   });
+
+  AOS.init({
+    duration: 1000
+  });
